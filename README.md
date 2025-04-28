@@ -1,2 +1,10 @@
 # Calculating-Vth-change-of-ISFET-from-Id-change
-Python script for converting SiNRFET drain current (ID) changes into threshold voltage (Vth) shifts, enabling real-time monitoring of pH variations during bacterial metabolism sensing in microfluidic experiments. Original ID-time and ID-VG data measured by Hp4155A
+The example dataset was collected using ISFET sensors fabricated in our research group. The sensors were used to monitor the acidification of LB medium (supplemented with 1 wt% glucose) caused by the metabolic activity of E. coli.
+
+sampling.txt records the drain current (ID) variations over time from multiple independent ISFET devices, corresponding to the gradual acidification of the culture medium.
+
+IV.txt contains the ID–VG transfer curves of the ISFET sensors, used for threshold voltage (Vth) extraction.
+
+All data are recorded using Hp4155A during experiment.
+By processing this dataset with the provided script, a file named Vt1.xlsx is generated, which records the threshold voltage (Vth) as a function of time.
+The Vth shift directly reflects pH changes in the culture medium, with a sensitivity of approximately 60 mV per pH unit.
