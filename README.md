@@ -1,4 +1,5 @@
 # Calculating-Vth-change-of-ISFET-from-Id-change
+The dataset and program are related to the work published as "Integration of AC Bias-Stabilized SiNRFETs with Microscale Ag/AgCl Pseudo-Reference Electrodes for Lab-on-chip Biosensing Application"
 The example dataset was collected using ISFET sensors fabricated in our research group. The sensors were used to monitor the acidification of LB medium (supplemented with 1 wt% glucose) caused by the metabolic activity of E. coli.
 
 sampling.txt records the drain current (ID) variations over time from multiple independent ISFET devices, corresponding to the gradual acidification of the culture medium.
